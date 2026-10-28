@@ -1,0 +1,19 @@
+# ==============================================================================
+# Sample terraform.tfvars for Domain Management Plane
+# (Auto-generated automatically on Day 0 by scripts/bootstrap_domain.sh)
+# ==============================================================================
+
+project_id         = "example-mgmt"
+region             = "asia-southeast1"
+domain_name        = "" # Set to FQDN (e.g. "example.com.") only if using Cloud DNS
+domain_slug        = "example"
+
+# Team Collaborators (Project IAM)
+project_admins     = [
+  "akraradet@ait.asia",
+  "nuttasit@ait.asia"
+]
+
+project_members    = []
+
+billing_account_id = "01XXXX-XXXXXX-XXXXXX"
